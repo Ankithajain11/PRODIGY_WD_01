@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
 :root {
-  --primary-color: #225e69;
+  --primary-color: #06515e;
   --secondary-color: #ff6f00;
   --white: #ffffff;
   --max-width: 100%;
@@ -33,18 +31,16 @@ body {
   margin-inline: auto;
 }
 
-nav {
+.nav__bar {
+  max-width: var(--max-width);
+  max-height: min-content;
+  margin-inline: auto;
+  overflow: hidden;
   position: fixed;
-  isolation: isolate;
-  width: 100%;
   background-color: var(--primary-color);
   z-index: 9;
-}
-
-.nav__bar {
   width: 100%;
-  max-width: var(--max-width);
-  margin-inline: auto;
+  top: 0;
 }
 
 .nav__header {
@@ -132,7 +128,7 @@ nav {
 .content h1 {
   margin-bottom: 2rem;
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 4rem;
   color: var(--white);
 }
